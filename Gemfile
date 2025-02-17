@@ -9,8 +9,14 @@ gem "rails", "~> 7.1.4"
 gem "sprockets-rails"
 gem "mini_racer", platforms: %i[ ruby jruby ] # fixes Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable) in Docker env
 
-# Use sqlite3 as the database for Active Record
-gem "sqlite3", ">= 1.4"
+
+group :development, :test do
+  gem "sqlite3", ">= 1.4"
+end
+# Use postgresql as the database for Active Record -- en production
+group :production do
+  gem "pg"
+end
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
