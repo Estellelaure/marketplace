@@ -95,6 +95,5 @@ gem "spree_i18n"
 
 # only needed for MacOS and Ruby 3.0
 # gem 'sassc', github: 'sass/sassc-ruby', branch: 'master'
-# gem 'sassc', '~> 2.0.0'
-gem 'sassc-rails', '~> 2.1.2'
+gem 'sassc', '~> 2.0.0'
 
