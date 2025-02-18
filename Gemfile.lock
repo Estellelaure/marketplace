@@ -595,7 +595,7 @@ DEPENDENCIES
   pg
   puma (>= 5.0)
   rails (~> 7.1.4)
-  sassc (~> 2.0.0)
+  sassc (~> 2.0.1)
   selenium-webdriver
   solid_cache
   solid_queue (>= 0.3.2)
