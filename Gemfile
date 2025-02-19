@@ -96,6 +96,5 @@ gem 'spree_multi_vendor'
 
 # only needed for MacOS and Ruby 3.0
 gem 'sassc', github: 'sass/sassc-ruby', branch: 'master'
-# gem 'sassc', '2.1.0'
 
 
